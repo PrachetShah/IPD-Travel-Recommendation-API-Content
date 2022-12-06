@@ -12,7 +12,7 @@ def find_places():
         city = data['city']
         output = {}
 
-        cities = pd.read_csv('Updated.csv')
+        # cities = pd.read_csv('Updated.csv')
         num_ratings = pd.read_csv('num_ratings.csv')
 
         for CITY in city:
