@@ -1,8 +1,16 @@
 from flask import Flask, request
 import pandas as pd
 import numpy as np
+# from cityRecommendation import *
+import random 
 
 app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    # df_places = pd.read_csv('num_ratings.csv')
+    # output = recommend(random.choice(df_places[df_places['City']=='Mumbai']['PlaceID'].unique()), num=10)
+    return f'Hello'
 
 @app.route('/city', methods=['POST'])
 def find_places():
@@ -31,6 +39,10 @@ def find_places():
             except Exception as e:
                 output[CITY] = {'output':False}
         return output
+
+# @app.route('/recommendCity', methods=['POST'])
+# def recommend():
+
 
 if __name__ == '__main__':
     app.run(debug=True)
