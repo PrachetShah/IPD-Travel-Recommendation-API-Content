@@ -1,0 +1,211 @@
+,City,Place,PlaceID,CityID
+0,New Delhi,Qutub Minar,2097,22
+1,New Delhi,Swaminarayan Akshardham,2705,22
+2,New Delhi,India Gate,1088,22
+3,New Delhi,Humayun's Tomb,1060,22
+4,New Delhi,Gurudwara Bangla Sahib,943,22
+5,New Delhi,Lotus Temple,1493,22
+6,New Delhi,Red Fort (Lal Quila),2207,22
+7,Agra,Taj Mahal,2719,0
+8,Agra,Agra Fort,39,0
+9,Agra,Tomb of Itimad-ud-Daulah,2852,0
+10,Agra,Wildlife SOS,3007,0
+11,Agra,Mehtab Bagh,1668,0
+12,Agra,Jama Masjid,1167,0
+13,Agra,Sheesh Mahal,2400,0
+14,Jaipur,Hawa Mahal - Palace of Wind,1014,9
+15,Jaipur,Jantar Mantar - Jaipur,1182,9
+16,Jaipur,City Palace of Jaipur,550,9
+17,Jaipur,Jal Mahal,1163,9
+18,Jaipur,Birla Mandir Temple,365,9
+19,Jaipur,Nahargarh Fort,1778,9
+20,Jaipur,Jaigarh Fort,1140,9
+21,Udaipur,City Palace of Udaipur,551,28
+22,Udaipur,Lake Pichola,1425,28
+23,Udaipur,Bagore Ki Haveli Museum,245,28
+24,Udaipur,Monsoon Palace,1712,28
+25,Udaipur,Sahelion Ki Bari,2268,28
+26,Udaipur,Jagdish Temple,1131,28
+27,Udaipur,Ekling Ji Temple,740,28
+28,Panjim,Deltin Royale,644,24
+29,Panjim,Miramar Beach,1695,24
+30,Panjim,Church of Our Lady of the Immaculate Conception,538,24
+31,Panjim,Reis Magos Fort,2213,24
+32,Panjim,Se Cathedral,2354,24
+33,Panjim,Shantadurga Temple,2392,24
+34,Panjim,Deltin Jaqk,643,24
+35,Almora,Jageshwar Dham,1132,2
+36,Almora,Kasar Devi Temple,1306,2
+37,Almora,Chitai Temple,510,2
+38,Almora,Zero Point,3044,2
+39,Almora,Katarmal Sun Temple,1313,2
+40,Almora,Kumaon Regimental Centre Museum,1392,2
+41,Almora,Nanda Devi Temple,1796,2
+42,Varanasi,Ganges River,853,29
+43,Varanasi,Sarnath,2333,29
+44,Varanasi,Dasaswamedh Ghat,619,29
+45,Varanasi,Shri Kashi Vishwanath Temple (Golden Temple),2474,29
+46,Varanasi,Banaras Ghats,263,29
+47,Varanasi,Assi Ghat,189,29
+48,Varanasi,Manikarnika Ghat,1614,29
+49,Jaisalmer,Jaisalmer Fort,1159,10
+50,Jaisalmer,Gadsisar Sagar Lake,826,10
+51,Jaisalmer,Kothari's Patwaon-Ki-Haveli,1376,10
+52,Jaisalmer,Kuldhara Abandoned Village,1390,10
+53,Jaisalmer,Jain Temples,1152,10
+54,Jaisalmer,Bada Bagh,234,10
+55,Jaisalmer,Tanot Mata Temple,2735,10
+56,Srinagar,Dal Lake,600,27
+57,Srinagar,Shankaracharya Hill,2390,27
+58,Srinagar,Ghanta Ghar,876,27
+59,Srinagar,Nishat Garden,1888,27
+60,Srinagar,Sonamarg,2541,27
+61,Srinagar,Nigeen Lake,1879,27
+62,Srinagar,Indira Gandhi Tulip Garden,1108,27
+63,Leh,Pangong Tso,1966,15
+64,Leh,Hall of Fame,982,15
+65,Leh,Thiksey Monastery,2807,15
+66,Leh,Confluence of the Indus and Zanskar Rivers,562,15
+67,Leh,Magnetic Hill,1533,15
+68,Leh,Gurdwara Pathar Sahib,933,15
+69,Leh,Leh Royal Palace,1463,15
+70,Jodhpur,Mehrangarh Fort,1665,11
+71,Jodhpur,Umaid Bhawan Palace Museum,2895,11
+72,Jodhpur,Jaswant Thada,1186,11
+73,Jodhpur,Ghanta Ghar,876,11
+74,Jodhpur,Mandore Garden,1604,11
+75,Jodhpur,Rao Jodha Desert Rock Park,2189,11
+76,Jodhpur,Toorji Ka Jhalra (Toorji’s Step Well),2857,11
+77,Pune,Dagadusheth Halwai Ganapati Temple,595,26
+78,Pune,Sinhagad Fort,2516,26
+79,Pune,Darshan Museum,616,26
+80,Pune,Aga Khan Palace,35,26
+81,Pune,Shaniwar Wada,2387,26
+82,Pune,Sri Balaji Mandir,2566,26
+83,Pune,Laxmi Road,1457,26
+84,Aurangabad,Ellora Caves,759,4
+85,Aurangabad,Bibi Ka Maqbara,354,4
+86,Aurangabad,Grishneshwar Jyotirlinga Temple,918,4
+87,Aurangabad,Jama Masjid,1167,4
+88,Aurangabad,Panchakki (Water Mill),1959,4
+89,Aurangabad,Aurangabad Caves,199,4
+90,Aurangabad,Bhadra Maruti,314,4
+91,Darjeeling,Padmaja Naidu Himalayan Zoological Park,1942,6
+92,Darjeeling,Tiger Hill,2830,6
+93,Darjeeling,Himalayan Mountaineering Institute,1044,6
+94,Darjeeling,Batasia Loop,291,6
+95,Darjeeling,Japanese Peace Pagoda,1183,6
+96,Darjeeling,Kanchenjunga Mountain,1283,6
+97,Darjeeling,Darjeeling Himalayan Railway,612,6
+98,Nainital,Nainital Lake,1781,21
+99,Nainital,Goddess Naina Devi,894,21
+100,Nainital,High Altitude Zoo,1035,21
+101,Nainital,Eco Cave Gardens,733,21
+102,Nainital,Snow View Point,2529,21
+103,Nainital,Mukteshwar Temple,1741,21
+104,Nainital,Kainchi Dham,1247,21
+105,Manali,Hidimba Devi Temple,1034,17
+106,Manali,Solang Valley,2536,17
+107,Manali,Beas River,298,17
+108,Manali,Manikaran Gurudwara,1613,17
+109,Manali,Vashisht Baths,2928,17
+110,Manali,Gulaba,925,17
+111,Manali,Solang Nullah,2535,17
+112,Kolkata,Victoria Memorial Hall,2946,14
+113,Kolkata,Dakshineswar Kali Temple,598,14
+114,Kolkata,Howrah Bridge,1058,14
+115,Kolkata,Park Street,1981,14
+116,Kolkata,Eden Gardens,737,14
+117,Kolkata,Mother House,1717,14
+118,Kolkata,Metro Railway,1679,14
+119,Munnar,Tea Gardens,2745,19
+120,Munnar,Top Station,2858,19
+121,Munnar,Rajamalai (Eravikulam) National Park,2140,19
+122,Munnar,Kannan Devan Tea Museum,1291,19
+123,Munnar,Rose Gardens,2240,19
+124,Munnar,Photo Point,2017,19
+125,Munnar,Kundala Dam Lake,1399,19
+126,Bhopal,Birla Mandir,364,5
+127,Bhopal,Buddhist Monuments at Sanchi,406,5
+128,Bhopal,Rock Shelters of Bhimbetka,2233,5
+129,Bhopal,Upper Lake,2908,5
+130,Bhopal,Jama Masjid,1167,5
+131,Bhopal,Van Vihar National Park,2921,5
+132,Bhopal,Archaeological Museum,139,5
+133,Amritsar,Golden Temple,900,3
+134,Amritsar,Jallianwala Bagh,1166,3
+135,Amritsar,Gobindgarh Fort,893,3
+136,Amritsar,Durgiana Temple,722,3
+137,Amritsar,Akal Takht,55,3
+138,Amritsar,The Partition Museum,2789,3
+139,Amritsar,Mandir Mata Lal Devi,1602,3
+140,Mumbai,Gateway of India,862,18
+141,Mumbai,Bandra-Worli Sea Link,271,18
+142,Mumbai,Marine Drive,1635,18
+143,Mumbai,Shree Siddhivinayak,2454,18
+144,Mumbai,Chhatrapati Shivaji Terminus,495,18
+145,Mumbai,Sri Sri Radha Gopinath Temple,2591,18
+146,Mumbai,Nariman Point,1800,18
+147,Kanyakumari,Vivekananda Rock Memorial,2974,12
+148,Kanyakumari,Kanyakumari Beach,1293,12
+149,Kanyakumari,Thiruvalluvar Statue,2811,12
+150,Kanyakumari,Padmanabhapuram Palace,1944,12
+151,Kanyakumari,Thanumalayan temple - Sthanumalayan Kovil,2760,12
+152,Kanyakumari,Bhagavathy Amman Temple,316,12
+153,Kanyakumari,Gandhi Memorial,841,12
+154,Alappuzha,Alappuzha Beach,70,1
+155,Alappuzha,Alleppey Backwaters,78,1
+156,Alappuzha,Ambalapuzha Sree Krishna Temple,91,1
+157,Alappuzha,Alappuzha Lighthouse,71,1
+158,Alappuzha,Revi Karunakaran Museum,2217,1
+159,Alappuzha,Mannarasala Sree Nagaraja Temple,1622,1
+160,Alappuzha,Kathakali,1314,1
+161,Kodaikanal,Kodaikanal Lake,1362,13
+162,Kodaikanal,Coakers Walk,554,13
+163,Kodaikanal,Pine Forest,2023,13
+164,Kodaikanal,Pillar Rocks,2021,13
+165,Kodaikanal,Berijam Lake,309,13
+166,Kodaikanal,Bryant Park,401,13
+167,Kodaikanal,Guna Cave,927,13
+168,Pondicherry,Seaside Promenade,2357,25
+169,Pondicherry,Paradise Beach,1972,25
+170,Pondicherry,Arulmigu Manakula Vinayagar Temple,168,25
+171,Pondicherry,The Basilica of the Sacred Heart of Jesus,2765,25
+172,Pondicherry,Serenity Beach,2365,25
+173,Pondicherry,Chunnambar Boat House,531,25
+174,Pondicherry,Sri Aurobindo Ashram,2562,25
+175,Mysuru (Mysore),Mysore Palace (Amba Vilas),1770,20
+176,Mysuru (Mysore),Sri Chamarajendra Zoological Gardens,2568,20
+177,Mysuru (Mysore),Brindavan Garden,398,20
+178,Mysuru (Mysore),Namdroling Monastery,1792,20
+179,Mysuru (Mysore),Sri Chamundeshwari Temple,2569,20
+180,Mysuru (Mysore),St. Philomena's Church,2639,20
+181,Mysuru (Mysore),Somnathpur Temple,2540,20
+182,Ooty,Botanical Gardens,390,23
+183,Ooty,Doddabetta Peak,696,23
+184,Ooty,Ooty Lake,1923,23
+185,Ooty,Pykara Lake,2088,23
+186,Ooty,Nilgiri Mountain Railway,1882,23
+187,Ooty,Rose Garden,2239,23
+188,Ooty,Pykara Falls,2087,23
+189,Madikeri,Abbey Falls,14,16
+190,Madikeri,Raja's Seat,2137,16
+191,Madikeri,Raja's Tomb,2138,16
+192,Madikeri,Omkareshwara Temple,1922,16
+193,Madikeri,Madikeri Fort,1529,16
+194,Madikeri,Kote Betta,1375,16
+195,Madikeri,Mercara Gold Estate - Coffee Plantation Tour Coorg,1673,16
+196,Hampi,Monkey Temple,1708,7
+197,Hampi,Vithala Temple Complex,2972,7
+198,Hampi,Virupaksha Temple,2964,7
+199,Hampi,Elephant Stables,751,7
+200,Hampi,Group of Monuments at Hampi,919,7
+201,Hampi,Statue of Ugra Narsimha,2657,7
+202,Hampi,Lotus Mahal,1491,7
+203,Hyderabad,Ramoji Film City,2174,8
+204,Hyderabad,Golconda Fort,898,8
+205,Hyderabad,Charminar,472,8
+206,Hyderabad,Birla Mandir,364,8
+207,Hyderabad,Salar Jung Museum,2278,8
+208,Hyderabad,Hussain Sagar Lake,1061,8
+209,Hyderabad,Chowmahalla Palace,523,8

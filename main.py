@@ -1,16 +1,23 @@
 from flask import Flask, request
 import pandas as pd
 import numpy as np
-# from cityRecommendation import *
+from contentBased import *
 import random 
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/placeName', methods=['POST'])
 def hello():
-    # df_places = pd.read_csv('num_ratings.csv')
-    # output = recommend(random.choice(df_places[df_places['City']=='Mumbai']['PlaceID'].unique()), num=10)
-    return f'Hello'
+    if request.method == 'POST':
+        data = request.json
+
+        place = data['place']
+        df_places = pd.read_csv('num_ratings.csv')
+        # Place id is [2251 'Mumbai' 'Marine Drive' 7500 1635 18] 
+        id = df_places[df_places['Place']==place].values[0]
+        print(df_places[df_places['Place']==place]['PlaceID'])
+        output = recommend(id[4], num=10)
+        return {'places':list(output)}
 
 @app.route('/city', methods=['POST'])
 def find_places():
@@ -39,9 +46,6 @@ def find_places():
             except Exception as e:
                 output[CITY] = {'output':False}
         return output
-
-# @app.route('/recommendCity', methods=['POST'])
-# def recommend():
 
 
 if __name__ == '__main__':
