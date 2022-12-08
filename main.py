@@ -17,7 +17,6 @@ def hello():
         for place in places:
             if place in df_places['Place'].unique():
                 # Place id is [2251 'Mumbai' 'Marine Drive' 7500 1635 18] 
-                # print(df_places[df_places['Place']==place].values)
                 id = df_places[df_places['Place']==place].values[0]
                 # print(df_places[df_places['Place']==place]['PlaceID'])
                 output[place] = recommend(id[3], num=10)
@@ -33,6 +32,7 @@ def find_places():
 
         # cities = pd.read_csv('Updated.csv')
         num_ratings = pd.read_csv('num_ratings.csv')
+        df_places = pd.read_csv('places.csv')
 
         for CITY in city:
             try:
@@ -45,8 +45,12 @@ def find_places():
                 sorted_keys = sorted(my_dict, key=lambda x: my_dict[x], reverse=True)
 
                 # Convert the sorted keys into a dictionary
-                sorted_dict = dict([(key, my_dict[key]) for key in sorted_keys[:10]])
-                output[CITY] = {'output':True, 'num':len(places), 'places':sorted_dict}
+                sorted_dict = dict([(key, my_dict[key]) for key in sorted_keys[:7]])
+                images = {}
+                for place, val in sorted_dict.items():
+                    images[place] = df_places[df_places['Place']==place].values[0][-1]
+                # output[CITY] = {'output':True, 'num':len(places), 'places':sorted_dict, 'images':images}
+                output[CITY] = {'output':True, 'num':len(places), 'images':images}
             except Exception as e:
                 output[CITY] = {'output':False}
         return output
