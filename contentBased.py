@@ -1,13 +1,12 @@
 import pandas as pd
 import numpy as np
-import json
-import random
-import time
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from tqdm import tqdm
 
-recommender = pd.read_csv('inside.csv')
+recommender = pd.read_csv('places.csv')
+print(recommender.head())
 df = recommender.reset_index(drop=True)
 
 # we compute a TFIDF on the titles of the places
@@ -21,21 +20,24 @@ for idx, row in df.iterrows():
     similar_indices = cosine_similarities[idx].argsort()[:-100:-1] 
     similar_items = [(cosine_similarities[idx][i], df['PlaceID'].loc[[i]].tolist()[0]) for i in similar_indices] 
     results[idx] = similar_items[1:]
+
 # transform a 'Place' into its corresponding City
 def item(id):  
     return df.loc[df['PlaceID'] == id]['Place'].tolist()[0].split(' - ')[0] 
+
 # transform a 'place_id' into the index id
 def get_idx(id):
     return df[df['PlaceID'] == id].index.tolist()[0]
 # Finally we put everything together here:
 def recommend(item_id, num):
-    output = set()
-    output.add(item(item_id))
+    output = {}
     # print("Recommending " + str(num) + " products similar to " + item(item_id) + "...")   
     # print("-------")    
+    output["Suggested"] = []
     recs = results[get_idx(item_id)][:num]   
     for rec in recs: 
-        output.add(item(rec[1]))
+        place = item(rec[1])
+        output["Suggested"].append([item(rec[1]), df.loc[df["Place"]==item(rec[1])]["ImageUrl"].tolist()])
+        # output["Image"].append(df.loc[df["Place"]==item(rec[1])]["ImageUrl"].tolist())
         # print("\tRecommended: " + item(rec[1]) + " (score:" +      str(rec[0]) + ")")
-    output.remove(item(item_id))
     return output
