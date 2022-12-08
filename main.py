@@ -15,11 +15,12 @@ def hello():
         places = data['place']
         output = {}
         for place in places:
-            # Place id is [2251 'Mumbai' 'Marine Drive' 7500 1635 18] 
-            print(df_places[df_places['Place']==place].values)
-            id = df_places[df_places['Place']==place].values[0]
-            print(df_places[df_places['Place']==place]['PlaceID'])
-            output[place] = recommend(id[3], num=10)
+            if place in df_places['Place'].unique():
+                # Place id is [2251 'Mumbai' 'Marine Drive' 7500 1635 18] 
+                print(df_places[df_places['Place']==place].values)
+                id = df_places[df_places['Place']==place].values[0]
+                print(df_places[df_places['Place']==place]['PlaceID'])
+                output[place] = recommend(id[3], num=10)
         return output
 
 @app.route('/city', methods=['POST'])

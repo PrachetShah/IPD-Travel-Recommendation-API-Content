@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import linear_kernel
 from tqdm import tqdm
 
 recommender = pd.read_csv('places.csv')
-print(recommender.head())
+# print(recommender.head())
 df = recommender.reset_index(drop=True)
 
 # we compute a TFIDF on the titles of the places
