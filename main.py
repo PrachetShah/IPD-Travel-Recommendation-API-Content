@@ -34,7 +34,7 @@ def find_places():
                 sorted_keys = sorted(my_dict, key=lambda x: my_dict[x], reverse=True)
 
                 # Convert the sorted keys into a dictionary
-                sorted_dict = dict([(key, my_dict[key]) for key in sorted_keys])
+                sorted_dict = dict([(key, my_dict[key]) for key in sorted_keys[:10]])
                 output[CITY] = {'output':True, 'num':len(places), 'places':sorted_dict}
             except Exception as e:
                 output[CITY] = {'output':False}
