@@ -1,25 +1,25 @@
 ,City,Place,PlaceID,CityID,ImageUrl
-0,New Delhi,Qutub Minar,146,22,https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-1,New Delhi,Swaminarayan Akshardham,183,22,https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-2,New Delhi,India Gate,76,22,https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-3,New Delhi,Humayun's Tomb,74,22,https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-4,New Delhi,Gurudwara Bangla Sahib,67,22,https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-5,New Delhi,Lotus Temple,106,22,https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-6,New Delhi,Red Fort (Lal Quila),152,22,https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+0,New Delhi,Qutub Minar,146,22,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b7/1f/31/qutab-minar.jpg?w=1200&h=1200&s=1
+1,New Delhi,Swaminarayan Akshardham,183,22,https://www.makemytrip.com/travel-guide/media/dg_image/delhi/Swaminarayan-Akshardham-Temple-Delhi.jpg
+2,New Delhi,India Gate,76,22,https://img.staticmb.com/mbcontent//images/uploads/2022/9/India%20Gate%20delhi.jpg
+3,New Delhi,Humayun's Tomb,74,22,https://cdn.britannica.com/54/156454-050-4E72CEE0/Humayuns-Tomb-Hamidah-Banu-Begam-Delhi-India-1569.jpg
+4,New Delhi,Gurudwara Bangla Sahib,67,22,"https://navbharattimes.indiatimes.com/travel/destinations/interesting-facts-about-bangla-sahib-gurudwara-delhi/photo/msid-93386892,imgsize-72802/interesting-facts-about-bangla-sahib-gurudwara-delhi-93386892.jpg"
+5,New Delhi,Lotus Temple,106,22,https://upload.wikimedia.org/wikipedia/commons/f/fc/LotusDelhi.jpg
+6,New Delhi,Red Fort (Lal Quila),152,22,https://cdn.britannica.com/84/124684-004-07547A0D/Red-Fort-Old-Delhi-India.jpg
 7,Agra,Taj Mahal,184,0,https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-8,Agra,Agra Fort,2,0,https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+8,Agra,Agra Fort,2,0,https://assets.traveltriangle.com/blog/wp-content/uploads/2019/08/%E0%A4%86%E0%A4%97%E0%A4%B0%E0%A4%BE-%E0%A4%95%E0%A4%BE-%E0%A4%95%E0%A4%BF%E0%A4%B2%E0%A4%BE.jpg
 9,Agra,Tomb of Itimad-ud-Daulah,193,0,https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 10,Agra,Wildlife SOS,204,0,https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 11,Agra,Mehtab Bagh,116,0,https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 12,Agra,Jama Masjid,85,0,https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 13,Agra,Sheesh Mahal,167,0,https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-14,Jaipur,Hawa Mahal - Palace of Wind,69,9,https://images.pexels.com/photos/3974150/pexels-photo-3974150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-15,Jaipur,Jantar Mantar - Jaipur,86,9,https://images.pexels.com/photos/3974150/pexels-photo-3974150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+14,Jaipur,Hawa Mahal - Palace of Wind,69,9,https://www.holidify.com/images/cmsuploads/compressed/h4_20170822181427.PNG
+15,Jaipur,Jantar Mantar - Jaipur,86,9,https://www.tourmyindia.com/heritage/images/jantar-mantar-jaipur.jpg
 16,Jaipur,City Palace of Jaipur,34,9,https://images.pexels.com/photos/3974150/pexels-photo-3974150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-17,Jaipur,Jal Mahal,83,9,https://images.pexels.com/photos/3974150/pexels-photo-3974150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-18,Jaipur,Birla Mandir Temple,23,9,https://images.pexels.com/photos/3974150/pexels-photo-3974150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-19,Jaipur,Nahargarh Fort,125,9,https://images.pexels.com/photos/3974150/pexels-photo-3974150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-20,Jaipur,Jaigarh Fort,80,9,https://images.pexels.com/photos/3974150/pexels-photo-3974150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+17,Jaipur,Jal Mahal,83,9,https://www.nobroker.in/blog/wp-content/uploads/2020/05/shutterstock_334776524.jpg
+18,Jaipur,Birla Mandir Temple,23,9,https://upload.wikimedia.org/wikipedia/commons/d/d6/Birla_Mandir_Jaipur_%282022-07%29.jpg
+19,Jaipur,Nahargarh Fort,125,9,https://jaipurtourism.co.in/images/places-to-visit/header/nahargarh-fort-jaipur-entry-fee-timings-holidays-reviews-header.jpg
+20,Jaipur,Jaigarh Fort,80,9,https://upload.wikimedia.org/wikipedia/commons/3/32/Rajasthan-Jaipur-Jaigarh-Fort-perimeter-walls-Apr-2004-01.JPG
 21,Udaipur,City Palace of Udaipur,35,28,https://images.pexels.com/photos/925069/pexels-photo-925069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 22,Udaipur,Lake Pichola,102,28,https://images.pexels.com/photos/925069/pexels-photo-925069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 23,Udaipur,Bagore Ki Haveli Museum,13,28,https://images.pexels.com/photos/925069/pexels-photo-925069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
@@ -66,16 +66,16 @@
 64,Leh,Hall of Fame,68,15,https://images.pexels.com/photos/570026/pexels-photo-570026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 65,Leh,Thiksey Monastery,190,15,https://images.pexels.com/photos/570026/pexels-photo-570026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 66,Leh,Confluence of the Indus and Zanskar Rivers,37,15,https://images.pexels.com/photos/570026/pexels-photo-570026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-67,Leh,Magnetic Hill,108,15,https://images.pexels.com/photos/570026/pexels-photo-570026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+67,Leh,Magnetic Hill,108,15,https://assets.traveltriangle.com/blog/wp-content/uploads/2016/11/Magnetic-hill-2.jpg
 68,Leh,Gurdwara Pathar Sahib,66,15,https://images.pexels.com/photos/570026/pexels-photo-570026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 69,Leh,Leh Royal Palace,104,15,https://images.pexels.com/photos/570026/pexels-photo-570026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-70,Jodhpur,Mehrangarh Fort,115,11,https://images.pexels.com/photos/5102986/pexels-photo-5102986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-71,Jodhpur,Umaid Bhawan Palace Museum,196,11,https://images.pexels.com/photos/5102986/pexels-photo-5102986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-72,Jodhpur,Jaswant Thada,88,11,https://images.pexels.com/photos/5102986/pexels-photo-5102986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-73,Jodhpur,Ghanta Ghar,57,11,https://images.pexels.com/photos/5102986/pexels-photo-5102986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-74,Jodhpur,Mandore Garden,110,11,https://images.pexels.com/photos/5102986/pexels-photo-5102986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-75,Jodhpur,Rao Jodha Desert Rock Park,151,11,https://images.pexels.com/photos/5102986/pexels-photo-5102986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-76,Jodhpur,Toorji Ka Jhalra (Toorji’s Step Well),194,11,https://images.pexels.com/photos/5102986/pexels-photo-5102986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+70,Jodhpur,Mehrangarh Fort,115,11,https://www.revv.co.in/blogs/wp-content/uploads/2021/12/Mehrangarh-fort.png
+71,Jodhpur,Umaid Bhawan Palace Museum,196,11,"https://media.cntraveler.com/photos/594001185fff7e434a15efbe/16:9/w_2560,c_limit/Exterior-UmaidBhawanPalaceTaj-India-CRHotel.jpg"
+72,Jodhpur,Jaswant Thada,88,11,https://upload.wikimedia.org/wikipedia/commons/a/ad/Jaswant_Thada_Dawn.jpg
+73,Jodhpur,Ghanta Ghar,57,11,https://media-cdn.tripadvisor.com/media/photo-s/1a/0b/33/1f/also-known-as-ghanta.jpg
+74,Jodhpur,Mandore Garden,110,11,https://www.holidify.com/images/cmsuploads/compressed/shutterstock_232090285_20191121132113_20191121132136.jpg
+75,Jodhpur,Rao Jodha Desert Rock Park,151,11,https://jodhpurtourism.in/images/places-to-visit/headers/rao-jodha-desert-rock-park-jodhpur-entry-fee-timings-holidays-reviews-header.jpg
+76,Jodhpur,Toorji Ka Jhalra (Toorji’s Step Well),194,11,https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/8d/0e/2b/photo0jpg.jpg?w=1200&h=-1&s=1
 77,Pune,Dagadusheth Halwai Ganapati Temple,38,26,https://images.pexels.com/photos/9404692/pexels-photo-9404692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 78,Pune,Sinhagad Fort,170,26,https://images.pexels.com/photos/9404692/pexels-photo-9404692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 79,Pune,Darshan Museum,42,26,https://images.pexels.com/photos/9404692/pexels-photo-9404692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
@@ -208,4 +208,4 @@
 206,Hyderabad,Birla Mandir,22,8,https://images.pexels.com/photos/9373357/pexels-photo-9373357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 207,Hyderabad,Salar Jung Museum,159,8,https://images.pexels.com/photos/9373357/pexels-photo-9373357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 208,Hyderabad,Hussain Sagar Lake,75,8,https://images.pexels.com/photos/9373357/pexels-photo-9373357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-209,Hyderabad,Chowmahalla Palace,31,8,https://images.pexels.com/photos/9373357/pexels-photo-9373357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+209,Hyderabad,Chowmahalla Palace,31,8,https://www.hyderabadtourism.travel/images//v2/header-places/chowmahalla-palace-hyderabad-tourism-entryfee-timings-reviews-header.jpg
