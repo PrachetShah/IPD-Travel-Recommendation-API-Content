@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from contentBased import *
 import random 
+from itinerary import prompt
 
 app = Flask(__name__)
 
@@ -21,6 +22,16 @@ def hello():
                 # print(df_places[df_places['Place']==place]['PlaceID'])
                 output[place] = recommend(id[3], num=10)
         return output
+
+@app.route('/chat', methods=['POST'])
+def chatbot():
+    if request.method=='POST':
+        data = request.json
+        # print(data['msg'])
+        res = prompt(data['msg'])
+        # print(res)
+        return res
+    return {'output': 'invalid method'}
 
 @app.route('/city', methods=['POST'])
 def find_places():
