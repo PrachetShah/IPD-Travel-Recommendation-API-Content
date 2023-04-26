@@ -1,0 +1,66 @@
+,City,SPlace,DPlace,Category,Age,Gender
+0,New Delhi,Dakshineswar Kali Temple,Golden Temple,Architectural,23,Male
+1,Hyderabad,Doddabetta Peak,Dagadusheth Halwai Ganapati Temple,Historical,12,Female
+2,Kodaikanal,Durgiana Temple,Golden Temple,Religious,24,Female
+3,Agra,Hidimba Devi Temple,Nanda Devi Temple,Historical,22,Male
+4,New Delhi,Snow View Point,Zero Point,Natural,18,Female
+5,Bhopal,Mehrangarh Fort,Madikeri Fort,Natural,50,Male
+6,Hampi,Mehrangarh Fort,Madikeri Fort,Religious,36,Female
+7,New Delhi,Jaigarh Fort,Madikeri Fort,Natural,38,Female
+8,Panjim,Paradise Beach,Alappuzha Beach,Architectural,44,Male
+9,Kolkata,Indira Gandhi Tulip Garden,Gandhi Memorial,Natural,17,Female
+10,Agra,Shankaracharya Hill,Magnetic Hill,Architectural,20,Female
+11,Kolkata,Photo Point,Zero Point,Religious,52,Female
+12,Srinagar,Sri Aurobindo Ashram,Sri Sri Radha Gopinath Temple,Religious,58,Female
+13,Mumbai,Mercara Gold Estate - Coffee Plantation Tour Coorg,Chowmahalla Palace,Architectural,46,Male
+14,Aurangabad,Eden Gardens,Tea Gardens,Architectural,35,Male
+15,Mysuru (Mysore),Bryant Park,Park Street,Architectural,20,Male
+16,Jodhpur,Red Fort (Lal Quila),Mandir Mata Lal Devi,Religious,10,Male
+17,Bhopal,Japanese Peace Pagoda,Chowmahalla Palace,Historical,42,Female
+18,Udaipur,Beas River,Ganges River,Architectural,61,Male
+19,Amritsar,Sonamarg,Chowmahalla Palace,Religious,64,Male
+20,Kodaikanal,Jageshwar Dham,Kainchi Dham,Architectural,21,Male
+21,Kanyakumari,Sri Aurobindo Ashram,Sri Sri Radha Gopinath Temple,Religious,44,Male
+22,Leh,Seaside Promenade,Chowmahalla Palace,Natural,57,Male
+23,Alappuzha,Confluence of the Indus and Zanskar Rivers,Chowmahalla Palace,Natural,40,Male
+24,Kanyakumari,Akal Takht,Chowmahalla Palace,Religious,49,Male
+25,Kodaikanal,Jageshwar Dham,Kainchi Dham,Historical,10,Female
+26,Alappuzha,Nilgiri Mountain Railway,Kanchenjunga Mountain,Historical,37,Male
+27,Ooty,Group of Monuments at Hampi,Buddhist Monuments at Sanchi,Architectural,48,Male
+28,Manali,Laxmi Road,Chowmahalla Palace,Historical,41,Male
+29,Munnar,Kumaon Regimental Centre Museum,Archaeological Museum,Historical,12,Male
+30,Srinagar,Shree Siddhivinayak,Kuldhara Abandoned Village,Architectural,26,Male
+31,Aurangabad,Bryant Park,Park Street,Religious,20,Male
+32,Darjeeling,Kasar Devi Temple,Nanda Devi Temple,Historical,40,Male
+33,Kolkata,Hussain Sagar Lake,Gadsisar Sagar Lake,Architectural,56,Male
+34,New Delhi,Abbey Falls,Pykara Falls,Historical,56,Female
+35,Almora,Arulmigu Manakula Vinayagar Temple,Golden Temple,Natural,55,Female
+36,Kanyakumari,Group of Monuments at Hampi,Buddhist Monuments at Sanchi,Religious,42,Female
+37,Panjim,Ganges River,Beas River,Natural,37,Female
+38,Kolkata,Kundala Dam Lake,Pykara Lake,Religious,10,Female
+39,Kolkata,Gadsisar Sagar Lake,Hussain Sagar Lake,Architectural,25,Male
+40,Darjeeling,Vithala Temple Complex,Golden Temple,Historical,48,Female
+41,Ooty,Revi Karunakaran Museum,Archaeological Museum,Religious,53,Male
+42,Pondicherry,Jaswant Thada,Chowmahalla Palace,Architectural,31,Female
+43,Almora,Grishneshwar Jyotirlinga Temple,Golden Temple,Historical,61,Male
+44,Jaipur,Dakshineswar Kali Temple,Golden Temple,Architectural,64,Male
+45,Jaipur,Humayun's Tomb,Raja's Tomb,Historical,27,Male
+46,Hyderabad,Botanical Gardens,Tea Gardens,Historical,56,Female
+47,New Delhi,Gandhi Memorial,Vivekananda Rock Memorial,Religious,37,Male
+48,Jaipur,Metro Railway,Darjeeling Himalayan Railway,Historical,51,Male
+49,Mysuru (Mysore),Kodaikanal Lake,Pykara Lake,Natural,21,Female
+50,Mumbai,Abbey Falls,Pykara Falls,Architectural,57,Male
+51,Panjim,Se Cathedral,Chowmahalla Palace,Religious,13,Female
+52,New Delhi,Bryant Park,Park Street,Historical,33,Female
+53,Kolkata,Manikaran Gurudwara,Gurudwara Bangla Sahib,Natural,58,Female
+54,Pondicherry,Sheesh Mahal,Lotus Mahal,Historical,19,Male
+55,Kolkata,Nishat Garden,Rose Garden,Historical,31,Female
+56,Ooty,The Basilica of the Sacred Heart of Jesus,Chowmahalla Palace,Natural,58,Male
+57,Pune,Gandhi Memorial,Vivekananda Rock Memorial,Religious,27,Male
+58,Pondicherry,Birla Mandir Temple,Birla Mandir,Architectural,23,Female
+59,Agra,Swaminarayan Akshardham,Chowmahalla Palace,Religious,17,Male
+60,Nainital,Virupaksha Temple,Golden Temple,Architectural,61,Male
+61,Amritsar,Mehrangarh Fort,Madikeri Fort,Religious,60,Female
+62,Srinagar,Agra Fort,Madikeri Fort,Religious,26,Female
+63,Alappuzha,Reis Magos Fort,Madikeri Fort,Historical,22,Male
+64,Almora,Dasaswamedh Ghat,Manikarnika Ghat,Historical,28,Female
