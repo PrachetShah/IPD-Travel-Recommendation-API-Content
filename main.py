@@ -7,6 +7,7 @@ from itinerary import prompt
 
 app = Flask(__name__)
 
+# Places Recommender
 @app.route('/placeName', methods=['POST'])
 def hello():
     if request.method == 'POST':
@@ -23,6 +24,7 @@ def hello():
                 output[place] = recommend(id[3], num=10)
         return output
 
+# Itinerary Generator
 @app.route('/chat', methods=['POST'])
 def chatbot():
     if request.method=='POST':
@@ -33,6 +35,7 @@ def chatbot():
         return res
     return {'output': 'invalid method'}
 
+# City Recommendations
 @app.route('/city', methods=['POST'])
 def find_places():
     if request.method == 'POST':
@@ -65,6 +68,25 @@ def find_places():
             except Exception as e:
                 output[CITY] = {'output':False}
         return output
+
+# City Recommendation based on Tourist Data
+@app.route('/topCity')
+def feedback():
+    df_places = pd.read_csv('feedback_data.csv')
+    cities = list(set(df_places['City']))
+    output = {}
+    for city in cities:
+        num = len(df_places[df_places['City']==city]['Rating'])
+        rating = sum(df_places[df_places['City']==city]['Rating'])
+        avgRating = round(rating/num, 2)
+        # print(city, num, rating, avgRating)
+        # Recommending Formula
+        score = round(num*0.3 + avgRating, 2)
+        output[city] = {'Num Visited': num, 'avgRating': avgRating, 'score': score}
+    # Sorting Dict based on score
+    output = sorted(output.items(), key=lambda x: x[1]['score'], reverse=True)
+
+    return {'response':output}
 
 
 if __name__ == '__main__':

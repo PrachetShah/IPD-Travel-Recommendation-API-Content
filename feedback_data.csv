@@ -1,66 +1,151 @@
-,City,SPlace,DPlace,Category,Age,Gender
-0,New Delhi,Dakshineswar Kali Temple,Golden Temple,Architectural,23,Male
-1,Hyderabad,Doddabetta Peak,Dagadusheth Halwai Ganapati Temple,Historical,12,Female
-2,Kodaikanal,Durgiana Temple,Golden Temple,Religious,24,Female
-3,Agra,Hidimba Devi Temple,Nanda Devi Temple,Historical,22,Male
-4,New Delhi,Snow View Point,Zero Point,Natural,18,Female
-5,Bhopal,Mehrangarh Fort,Madikeri Fort,Natural,50,Male
-6,Hampi,Mehrangarh Fort,Madikeri Fort,Religious,36,Female
-7,New Delhi,Jaigarh Fort,Madikeri Fort,Natural,38,Female
-8,Panjim,Paradise Beach,Alappuzha Beach,Architectural,44,Male
-9,Kolkata,Indira Gandhi Tulip Garden,Gandhi Memorial,Natural,17,Female
-10,Agra,Shankaracharya Hill,Magnetic Hill,Architectural,20,Female
-11,Kolkata,Photo Point,Zero Point,Religious,52,Female
-12,Srinagar,Sri Aurobindo Ashram,Sri Sri Radha Gopinath Temple,Religious,58,Female
-13,Mumbai,Mercara Gold Estate - Coffee Plantation Tour Coorg,Chowmahalla Palace,Architectural,46,Male
-14,Aurangabad,Eden Gardens,Tea Gardens,Architectural,35,Male
-15,Mysuru (Mysore),Bryant Park,Park Street,Architectural,20,Male
-16,Jodhpur,Red Fort (Lal Quila),Mandir Mata Lal Devi,Religious,10,Male
-17,Bhopal,Japanese Peace Pagoda,Chowmahalla Palace,Historical,42,Female
-18,Udaipur,Beas River,Ganges River,Architectural,61,Male
-19,Amritsar,Sonamarg,Chowmahalla Palace,Religious,64,Male
-20,Kodaikanal,Jageshwar Dham,Kainchi Dham,Architectural,21,Male
-21,Kanyakumari,Sri Aurobindo Ashram,Sri Sri Radha Gopinath Temple,Religious,44,Male
-22,Leh,Seaside Promenade,Chowmahalla Palace,Natural,57,Male
-23,Alappuzha,Confluence of the Indus and Zanskar Rivers,Chowmahalla Palace,Natural,40,Male
-24,Kanyakumari,Akal Takht,Chowmahalla Palace,Religious,49,Male
-25,Kodaikanal,Jageshwar Dham,Kainchi Dham,Historical,10,Female
-26,Alappuzha,Nilgiri Mountain Railway,Kanchenjunga Mountain,Historical,37,Male
-27,Ooty,Group of Monuments at Hampi,Buddhist Monuments at Sanchi,Architectural,48,Male
-28,Manali,Laxmi Road,Chowmahalla Palace,Historical,41,Male
-29,Munnar,Kumaon Regimental Centre Museum,Archaeological Museum,Historical,12,Male
-30,Srinagar,Shree Siddhivinayak,Kuldhara Abandoned Village,Architectural,26,Male
-31,Aurangabad,Bryant Park,Park Street,Religious,20,Male
-32,Darjeeling,Kasar Devi Temple,Nanda Devi Temple,Historical,40,Male
-33,Kolkata,Hussain Sagar Lake,Gadsisar Sagar Lake,Architectural,56,Male
-34,New Delhi,Abbey Falls,Pykara Falls,Historical,56,Female
-35,Almora,Arulmigu Manakula Vinayagar Temple,Golden Temple,Natural,55,Female
-36,Kanyakumari,Group of Monuments at Hampi,Buddhist Monuments at Sanchi,Religious,42,Female
-37,Panjim,Ganges River,Beas River,Natural,37,Female
-38,Kolkata,Kundala Dam Lake,Pykara Lake,Religious,10,Female
-39,Kolkata,Gadsisar Sagar Lake,Hussain Sagar Lake,Architectural,25,Male
-40,Darjeeling,Vithala Temple Complex,Golden Temple,Historical,48,Female
-41,Ooty,Revi Karunakaran Museum,Archaeological Museum,Religious,53,Male
-42,Pondicherry,Jaswant Thada,Chowmahalla Palace,Architectural,31,Female
-43,Almora,Grishneshwar Jyotirlinga Temple,Golden Temple,Historical,61,Male
-44,Jaipur,Dakshineswar Kali Temple,Golden Temple,Architectural,64,Male
-45,Jaipur,Humayun's Tomb,Raja's Tomb,Historical,27,Male
-46,Hyderabad,Botanical Gardens,Tea Gardens,Historical,56,Female
-47,New Delhi,Gandhi Memorial,Vivekananda Rock Memorial,Religious,37,Male
-48,Jaipur,Metro Railway,Darjeeling Himalayan Railway,Historical,51,Male
-49,Mysuru (Mysore),Kodaikanal Lake,Pykara Lake,Natural,21,Female
-50,Mumbai,Abbey Falls,Pykara Falls,Architectural,57,Male
-51,Panjim,Se Cathedral,Chowmahalla Palace,Religious,13,Female
-52,New Delhi,Bryant Park,Park Street,Historical,33,Female
-53,Kolkata,Manikaran Gurudwara,Gurudwara Bangla Sahib,Natural,58,Female
-54,Pondicherry,Sheesh Mahal,Lotus Mahal,Historical,19,Male
-55,Kolkata,Nishat Garden,Rose Garden,Historical,31,Female
-56,Ooty,The Basilica of the Sacred Heart of Jesus,Chowmahalla Palace,Natural,58,Male
-57,Pune,Gandhi Memorial,Vivekananda Rock Memorial,Religious,27,Male
-58,Pondicherry,Birla Mandir Temple,Birla Mandir,Architectural,23,Female
-59,Agra,Swaminarayan Akshardham,Chowmahalla Palace,Religious,17,Male
-60,Nainital,Virupaksha Temple,Golden Temple,Architectural,61,Male
-61,Amritsar,Mehrangarh Fort,Madikeri Fort,Religious,60,Female
-62,Srinagar,Agra Fort,Madikeri Fort,Religious,26,Female
-63,Alappuzha,Reis Magos Fort,Madikeri Fort,Historical,22,Male
-64,Almora,Dasaswamedh Ghat,Manikarnika Ghat,Historical,28,Female
+,City,SPlace,DPlace,Category,Age,Gender,Rating
+0,Hampi,Mercara Gold Estate - Coffee Plantation Tour Coorg,Chowmahalla Palace,Natural,33,Male,4
+1,Kolkata,Chowmahalla Palace,Padmanabhapuram Palace,Natural,25,Male,4
+2,Kodaikanal,Aurangabad Caves,Ellora Caves,Natural,57,Male,2
+3,Jaipur,Aga Khan Palace,Monsoon Palace,Architectural,18,Male,3
+4,Aurangabad,Top Station,Chowmahalla Palace,Religious,14,Female,4
+5,Kodaikanal,Pykara Lake,Pykara Falls,Historical,34,Female,1
+6,Amritsar,Hawa Mahal - Palace of Wind,Lotus Mahal,Historical,34,Female,2
+7,Munnar,Solang Valley,Solang Nullah,Historical,58,Male,1
+8,Manali,Rock Shelters of Bhimbetka,Vivekananda Rock Memorial,Architectural,58,Male,4
+9,Mumbai,Shankaracharya Hill,Magnetic Hill,Architectural,60,Male,1
+10,Hampi,Bandra-Worli Sea Link,Chowmahalla Palace,Historical,21,Female,4
+11,Kodaikanal,Alappuzha Lighthouse,Alappuzha Beach,Religious,17,Male,5
+12,Mysuru (Mysore),Sri Chamarajendra Zoological Gardens,Rose Gardens,Religious,16,Male,2
+13,New Delhi,Alappuzha Lighthouse,Alappuzha Beach,Historical,65,Male,1
+14,Panjim,Bhadra Maruti,Chowmahalla Palace,Architectural,12,Female,4
+15,Mysuru (Mysore),Victoria Memorial Hall,Hall of Fame,Architectural,17,Male,5
+16,Panjim,The Partition Museum,Archaeological Museum,Religious,24,Male,1
+17,New Delhi,Upper Lake,Pykara Lake,Natural,40,Female,1
+18,Pondicherry,Bandra-Worli Sea Link,Chowmahalla Palace,Architectural,28,Male,5
+19,New Delhi,Magnetic Hill,Shankaracharya Hill,Natural,56,Female,5
+20,Munnar,Ghanta Ghar,Ghanta Ghar,Natural,55,Female,1
+21,Pondicherry,Assi Ghat,Manikarnika Ghat,Natural,34,Female,5
+22,Jaisalmer,Wildlife SOS,Chowmahalla Palace,Religious,23,Female,4
+23,Amritsar,Jantar Mantar - Jaipur,City Palace of Jaipur,Historical,45,Male,3
+24,Udaipur,Panchakki (Water Mill),Chowmahalla Palace,Architectural,64,Male,3
+25,New Delhi,Reis Magos Fort,Madikeri Fort,Architectural,46,Male,4
+26,Jodhpur,Omkareshwara Temple,Golden Temple,Religious,56,Male,3
+27,Kanyakumari,Abbey Falls,Pykara Falls,Religious,26,Male,3
+28,Agra,Serenity Beach,Alappuzha Beach,Architectural,16,Female,5
+29,Hampi,Madikeri Fort,Gobindgarh Fort,Architectural,54,Female,3
+30,Jodhpur,Bhagavathy Amman Temple,Golden Temple,Architectural,16,Female,3
+31,Munnar,Vithala Temple Complex,Golden Temple,Architectural,25,Female,2
+32,Mumbai,Alappuzha Beach,Alappuzha Lighthouse,Natural,35,Male,4
+33,Panjim,Lake Pichola,Pykara Lake,Architectural,23,Female,4
+34,Hyderabad,Mandir Mata Lal Devi,Birla Mandir,Religious,38,Female,3
+35,Panjim,Aga Khan Palace,Monsoon Palace,Natural,28,Male,1
+36,Leh,Aga Khan Palace,Monsoon Palace,Natural,61,Female,3
+37,Leh,Doddabetta Peak,Dagadusheth Halwai Ganapati Temple,Religious,13,Female,3
+38,Pondicherry,Kainchi Dham,Jageshwar Dham,Natural,53,Female,3
+39,Manali,Indira Gandhi Tulip Garden,Gandhi Memorial,Religious,29,Female,1
+40,Kodaikanal,Bada Bagh,Jallianwala Bagh,Natural,58,Female,4
+41,Aurangabad,Metro Railway,Darjeeling Himalayan Railway,Historical,59,Male,5
+42,Nainital,Park Street,Bryant Park,Architectural,48,Male,3
+43,Kolkata,Mother House,Chunnambar Boat House,Architectural,58,Male,2
+44,Pondicherry,Deltin Royale,Deltin Jaqk,Architectural,57,Female,5
+45,Bhopal,Durgiana Temple,Golden Temple,Natural,42,Male,2
+46,Jaipur,Miramar Beach,Alappuzha Beach,Architectural,17,Female,3
+47,Pondicherry,Reis Magos Fort,Madikeri Fort,Historical,61,Female,3
+48,Hampi,Arulmigu Manakula Vinayagar Temple,Golden Temple,Architectural,54,Female,3
+49,Mumbai,Raja's Seat,Raja's Tomb,Natural,29,Female,1
+50,New Delhi,Jantar Mantar - Jaipur,City Palace of Jaipur,Natural,55,Female,1
+51,Kanyakumari,Alappuzha Lighthouse,Alappuzha Beach,Historical,54,Female,4
+52,Srinagar,Pangong Tso,Chowmahalla Palace,Religious,61,Female,3
+53,Madikeri,Darshan Museum,Archaeological Museum,Historical,17,Female,4
+54,Hampi,Jaswant Thada,Chowmahalla Palace,Historical,52,Female,1
+55,Leh,Red Fort (Lal Quila),Mandir Mata Lal Devi,Architectural,49,Female,1
+56,Madikeri,Aurangabad Caves,Ellora Caves,Architectural,27,Male,2
+57,Almora,Mukteshwar Temple,Golden Temple,Natural,10,Female,4
+58,Amritsar,Kumaon Regimental Centre Museum,Archaeological Museum,Religious,39,Female,5
+59,Ooty,Akal Takht,Chowmahalla Palace,Natural,56,Male,5
+60,Pondicherry,Vashisht Baths,Chowmahalla Palace,Historical,26,Female,3
+61,Jaipur,Jantar Mantar - Jaipur,City Palace of Jaipur,Religious,35,Male,3
+62,Udaipur,Kainchi Dham,Jageshwar Dham,Natural,55,Female,4
+63,Udaipur,Sri Chamundeshwari Temple,Sri Sri Radha Gopinath Temple,Natural,35,Female,4
+64,Mumbai,Vithala Temple Complex,Golden Temple,Religious,20,Female,3
+65,Varanasi,Sahelion Ki Bari,Bagore Ki Haveli Museum,Natural,26,Female,3
+66,Hampi,Namdroling Monastery,Thiksey Monastery,Historical,43,Female,1
+67,Srinagar,Marine Drive,Chowmahalla Palace,Natural,18,Female,4
+68,Hyderabad,Kanchenjunga Mountain,Nilgiri Mountain Railway,Natural,55,Female,3
+69,Munnar,Kasar Devi Temple,Nanda Devi Temple,Architectural,40,Female,1
+70,Varanasi,Kasar Devi Temple,Nanda Devi Temple,Religious,45,Female,5
+71,Madikeri,Nainital Lake,Pykara Lake,Religious,14,Female,5
+72,Hampi,Mysore Palace (Amba Vilas),Chowmahalla Palace,Architectural,53,Male,1
+73,Srinagar,Alleppey Backwaters,Kuldhara Abandoned Village,Natural,56,Female,2
+74,Leh,The Partition Museum,Archaeological Museum,Historical,20,Female,1
+75,Udaipur,Statue of Ugra Narsimha,Thiruvalluvar Statue,Religious,44,Female,1
+76,Kanyakumari,Ooty Lake,Pykara Lake,Historical,49,Female,1
+77,Pondicherry,Kasar Devi Temple,Nanda Devi Temple,Religious,30,Female,1
+78,Leh,Mandore Garden,Rose Garden,Religious,59,Male,5
+79,Amritsar,Kumaon Regimental Centre Museum,Archaeological Museum,Architectural,26,Female,4
+80,Manali,The Partition Museum,Archaeological Museum,Architectural,43,Male,5
+81,Kodaikanal,City Palace of Udaipur,City Palace of Jaipur,Architectural,36,Female,4
+82,Agra,Wildlife SOS,Chowmahalla Palace,Historical,16,Female,5
+83,Almora,Se Cathedral,Chowmahalla Palace,Architectural,45,Male,4
+84,Jaisalmer,Reis Magos Fort,Madikeri Fort,Architectural,25,Female,2
+85,Kanyakumari,Mehtab Bagh,Bada Bagh,Historical,24,Male,4
+86,Nainital,Vashisht Baths,Chowmahalla Palace,Religious,34,Female,1
+87,Almora,Photo Point,Zero Point,Religious,64,Male,1
+88,Jodhpur,Ooty Lake,Pykara Lake,Architectural,26,Male,5
+89,Hampi,Arulmigu Manakula Vinayagar Temple,Golden Temple,Architectural,55,Female,5
+90,Srinagar,Dagadusheth Halwai Ganapati Temple,Golden Temple,Natural,13,Female,1
+91,Jodhpur,Alappuzha Lighthouse,Alappuzha Beach,Natural,18,Male,2
+92,Darjeeling,Nahargarh Fort,Madikeri Fort,Architectural,65,Female,5
+93,Kodaikanal,Gurdwara Pathar Sahib,Gurudwara Bangla Sahib,Architectural,16,Male,5
+94,Manali,Hall of Fame,Victoria Memorial Hall,Architectural,58,Female,5
+95,Amritsar,Alappuzha Lighthouse,Alappuzha Beach,Natural,37,Male,5
+96,Kanyakumari,Virupaksha Temple,Golden Temple,Natural,60,Female,2
+97,Srinagar,Ramoji Film City,City Palace of Jaipur,Natural,33,Female,2
+98,Manali,Jallianwala Bagh,Bada Bagh,Religious,33,Female,1
+99,Hampi,Photo Point,Zero Point,Natural,18,Female,3
+100,Nainital,Van Vihar National Park,Rajamalai (Eravikulam) National Park,Religious,43,Male,5
+101,Ooty,Virupaksha Temple,Golden Temple,Natural,58,Female,4
+102,Nainital,Nainital Lake,Pykara Lake,Natural,47,Female,3
+103,Almora,Red Fort (Lal Quila),Mandir Mata Lal Devi,Architectural,24,Male,1
+104,Jodhpur,Eden Gardens,Tea Gardens,Religious,20,Male,5
+105,Mumbai,Gobindgarh Fort,Madikeri Fort,Natural,47,Female,1
+106,Almora,Abbey Falls,Pykara Falls,Natural,20,Male,1
+107,Leh,Howrah Bridge,Chowmahalla Palace,Historical,15,Male,4
+108,Pune,Sri Balaji Mandir,Birla Mandir,Natural,45,Male,3
+109,Panjim,Howrah Bridge,Chowmahalla Palace,Architectural,19,Male,3
+110,Hyderabad,Manikaran Gurudwara,Gurudwara Bangla Sahib,Religious,47,Female,4
+111,Jaipur,The Partition Museum,Archaeological Museum,Natural,56,Male,2
+112,Pune,Park Street,Bryant Park,Historical,43,Male,2
+113,New Delhi,Church of Our Lady of the Immaculate Conception,St. Philomena's Church,Natural,27,Female,4
+114,Ooty,Kodaikanal Lake,Pykara Lake,Natural,59,Male,4
+115,Manali,Akal Takht,Chowmahalla Palace,Religious,59,Female,4
+116,Panjim,Tiger Hill,Shankaracharya Hill,Natural,41,Male,4
+117,Kolkata,Deltin Royale,Deltin Jaqk,Historical,23,Female,3
+118,Varanasi,Kuldhara Abandoned Village,Chowmahalla Palace,Historical,14,Female,5
+119,Kolkata,Revi Karunakaran Museum,Archaeological Museum,Natural,59,Male,2
+120,Hampi,Shaniwar Wada,Chowmahalla Palace,Architectural,64,Male,3
+121,Varanasi,Taj Mahal,Lotus Mahal,Natural,25,Female,4
+122,Pune,Himalayan Mountaineering Institute,Darjeeling Himalayan Railway,Historical,39,Female,3
+123,Bhopal,Jaisalmer Fort,Madikeri Fort,Historical,39,Female,2
+124,Udaipur,Pykara Falls,Pykara Lake,Natural,16,Male,2
+125,Pune,Beas River,Ganges River,Historical,41,Female,2
+126,Aurangabad,Red Fort (Lal Quila),Mandir Mata Lal Devi,Natural,25,Male,1
+127,Manali,Manikarnika Ghat,Assi Ghat,Natural,18,Male,4
+128,Mumbai,Red Fort (Lal Quila),Mandir Mata Lal Devi,Historical,31,Female,5
+129,Panjim,Archaeological Museum,Darshan Museum,Natural,33,Male,5
+130,Nainital,Japanese Peace Pagoda,Chowmahalla Palace,Natural,62,Female,4
+131,Hyderabad,Humayun's Tomb,Raja's Tomb,Architectural,34,Female,4
+132,Ooty,Pykara Falls,Pykara Lake,Historical,57,Male,2
+133,Nainital,Raja's Tomb,Raja's Seat,Historical,20,Female,1
+134,Mumbai,Sonamarg,Chowmahalla Palace,Architectural,19,Female,2
+135,Darjeeling,Dakshineswar Kali Temple,Golden Temple,Architectural,43,Male,1
+136,Almora,Banaras Ghats,Chowmahalla Palace,Religious,29,Female,2
+137,Kanyakumari,Chhatrapati Shivaji Terminus,Chowmahalla Palace,Religious,65,Female,2
+138,Srinagar,Shantadurga Temple,Golden Temple,Natural,38,Male,1
+139,Srinagar,Sri Chamarajendra Zoological Gardens,Rose Gardens,Architectural,42,Male,5
+140,Munnar,Eden Gardens,Tea Gardens,Religious,51,Male,4
+141,Mumbai,Sahelion Ki Bari,Bagore Ki Haveli Museum,Historical,57,Female,1
+142,Jaipur,Ganges River,Beas River,Religious,16,Male,4
+143,Panjim,Mehtab Bagh,Bada Bagh,Historical,52,Female,3
+144,Pondicherry,Dakshineswar Kali Temple,Golden Temple,Historical,61,Male,5
+145,Varanasi,Guna Cave,Eco Cave Gardens,Natural,28,Male,1
+146,Agra,Alappuzha Lighthouse,Alappuzha Beach,Natural,10,Female,2
+147,Leh,Hidimba Devi Temple,Nanda Devi Temple,Historical,12,Male,5
+148,Hampi,Jantar Mantar - Jaipur,City Palace of Jaipur,Historical,15,Female,2
+149,Varanasi,Chunnambar Boat House,Mother House,Natural,33,Male,2

@@ -15,6 +15,7 @@ generated_categories = []
 generated_gender = []
 generated_Splace = []
 generated_Dplace = []
+generated_ratings = []
 
 # for city generation
 city_names_provider = DynamicProvider(
@@ -82,6 +83,7 @@ def data2():
           age = random.randint(10, 65)
           category = fake.category_generation()
           gender = random.choice(["Male", "Female"])
+          rating = random.randint(1, 5)
 
           Splace = fake.place_generation()
           id = df_places[df_places['Place']==Splace].values[0]
@@ -95,14 +97,15 @@ def data2():
           generated_ages.append(age)
           generated_categories.append(category)
           generated_gender.append(gender)
+          generated_ratings.append(rating)
           # print(city, age, category)
 
      # Calling DataFrame constructor on list
-     data = {'City':generated_cities, 'SPlace':generated_Splace, 'DPlace':generated_Dplace, 'Category':generated_categories, 'Age':generated_ages, 'Gender':generated_gender}
+     data = {'City':generated_cities, 'SPlace':generated_Splace, 'DPlace':generated_Dplace, 'Category':generated_categories, 'Age':generated_ages, 'Gender':generated_gender, 'Rating': generated_ratings}
      df = pd.DataFrame(data)
      print(df.head())
 
      df.to_csv('feedback_data.csv')
 
-data1()
+# data1()
 data2()
