@@ -16,6 +16,7 @@ generated_gender = []
 generated_Splace = []
 generated_Dplace = []
 generated_ratings = []
+generated_click = []
 
 # for city generation
 city_names_provider = DynamicProvider(
@@ -98,6 +99,7 @@ def data2():
           generated_categories.append(category)
           generated_gender.append(gender)
           generated_ratings.append(rating)
+          
           # print(city, age, category)
 
      # Calling DataFrame constructor on list
@@ -108,4 +110,12 @@ def data2():
      df.to_csv('feedback_data.csv')
 
 # data1()
-data2()
+# data2()
+
+for _ in range(150):
+     btnClicked = random.choice([0, 1])
+     generated_click.append(btnClicked)
+
+df = pd.read_csv('feedback_data_new.csv')
+df['btnClick'] = generated_click
+df.to_csv('final_feedback.csv', index=False)

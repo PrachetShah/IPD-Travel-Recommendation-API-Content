@@ -88,6 +88,38 @@ def feedback():
 
     return {'response':output}
 
+# Places Recommendation based on age
+@app.route('/byAge', methods=['POST'])
+def byAge():
+    if request.method == 'POST':
+        agegrp = request.json
+        grp = agegrp['age']
+        print(grp)
+        output = {}
+        df_places = pd.read_csv('places.csv')
+        if grp == 'y':
+            place = 'Solang Valley'
+            id = df_places[df_places['Place']==place].values[0]
+            # print(df_places[df_places['Place']==place]['PlaceID'])
+            output[grp] = recommend(id[3], num=7)
+        elif grp == 'k':
+            place = 'Nariman Point'
+            id = df_places[df_places['Place']==place].values[0]
+            # print(df_places[df_places['Place']==place]['PlaceID'])
+            output[grp] = recommend(id[3], num=7)
+        elif grp == 'a':
+            place = 'Ramoji Film City'
+            id = df_places[df_places['Place']==place].values[0]
+            # print(df_places[df_places['Place']==place]['PlaceID'])
+            output[grp] = recommend(id[3], num=7)
+        elif grp=='s':
+            place = 'Jagdish Temple'
+            id = df_places[df_places['Place']==place].values[0]
+            # print(df_places[df_places['Place']==place]['PlaceID'])
+            output[grp] = recommend(id[3], num=7)
+        return output
+
+    return {'response':'Wrong Method'}
 
 if __name__ == '__main__':
     app.run(debug=True)
