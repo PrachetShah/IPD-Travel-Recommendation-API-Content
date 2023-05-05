@@ -13,7 +13,6 @@ def prompt(query):
         "content-type": "application/json",
         "X-API-KEY": API_KEY
     }
-
     response = requests.post(url, json=payload, headers=headers)
 
     return response.text
