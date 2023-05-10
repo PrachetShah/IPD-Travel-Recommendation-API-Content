@@ -84,7 +84,7 @@ def byAge():
     if request.method == 'POST':
         agegrp = request.json
         grp = agegrp['age']
-        print(grp)
+        # print(grp)
         output = {}
         df_places = pd.read_csv('places.csv')
         if grp == 'y':
