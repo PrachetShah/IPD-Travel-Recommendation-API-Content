@@ -2,8 +2,7 @@ from flask import Flask, request
 import pandas as pd
 import numpy as np
 from contentBased import *
-import random 
-from itinerary import prompt
+import random
 
 app = Flask(__name__)
 
@@ -18,22 +17,13 @@ def hello():
         output = {}
         for place in places:
             if place in df_places['Place'].unique():
-                # Place id is [2251 'Mumbai' 'Marine Drive' 7500 1635 18] 
+                # Place id is [2251 'Mumbai' 'Marine Drive' 7500 1635 18]
                 id = df_places[df_places['Place']==place].values[0]
                 # print(df_places[df_places['Place']==place]['PlaceID'])
                 output[place] = recommend(id[3], num=10)
         return output
 
-# Itinerary Generator
-@app.route('/chat', methods=['POST'])
-def chatbot():
-    if request.method=='POST':
-        data = request.json
-        # print(data['msg'])
-        res = prompt(data['msg'])
-        # print(res)
-        return res
-    return {'output': 'invalid method'}
+
 
 # City Recommendations
 @app.route('/city', methods=['POST'])
